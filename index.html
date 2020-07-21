@@ -20,6 +20,31 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+	
+	<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v7.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="101040951676874"
+  theme_color="#0084ff">
+      </div>
 
   	<div class="container-fluid px-md-5  pt-4 pt-md-5">
 			<div class="row justify-content-between">
@@ -220,16 +245,15 @@
     				<div class="book-wrap d-lg-flex">
     					<div class="img d-flex justify-content-end" style="background-image: url(images/book-1.jpg);">
     						<div class="in-text">
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
+    							<a href="https://www.facebook.com/poraton.boi.ghor/inbox/" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটি অর্ডার করুন">
     								<span class="flaticon-shopping-cart"></span>
     							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-    								<span class="flaticon-heart-1"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Quick View">
-    								<span class="flaticon-search"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Compare">
+
+    								
+    							
+    								
+    							
+    							<a href="pdf/pdf-1.pdf" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটির পিডিএফ দেখুন">
     								<span class="flaticon-visibility"></span>
     							</a>
     						</div>
@@ -245,16 +269,15 @@
     				<div class="book-wrap d-lg-flex">
     					<div class="img d-flex justify-content-end" style="background-image: url(images/book-2.jpg);">
     						<div class="in-text">
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
+    							<a href="https://www.facebook.com/poraton.boi.ghor/inbox/" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটি অর্ডার করুন">
     								<span class="flaticon-shopping-cart"></span>
     							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-    								<span class="flaticon-heart-1"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Quick View">
-    								<span class="flaticon-search"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Compare">
+
+    								
+    							
+    								
+    							
+    							<a href="pdf/pdf-2.pdf" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটির পিডিএফ দেখুন">
     								<span class="flaticon-visibility"></span>
     							</a>
     						</div>
@@ -270,16 +293,15 @@
     				<div class="book-wrap d-lg-flex">
     					<div class="img d-flex justify-content-end" style="background-image: url(images/book-3.jpg);">
     						<div class="in-text">
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
+    							<a href="https://www.facebook.com/poraton.boi.ghor/inbox/" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটি অর্ডার করুন">
     								<span class="flaticon-shopping-cart"></span>
     							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-    								<span class="flaticon-heart-1"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Quick View">
-    								<span class="flaticon-search"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Compare">
+
+    								
+    							
+    								
+    							
+    							<a href="pdf/pdf-3.pdf" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটির পিডিএফ দেখুন">
     								<span class="flaticon-visibility"></span>
     							</a>
     						</div>
@@ -296,23 +318,22 @@
     				<div class="book-wrap d-lg-flex">
     					<div class="img d-flex justify-content-end" style="background-image: url(images/book-4.jpg);">
     						<div class="in-text">
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
+    							<a href="https://www.facebook.com/poraton.boi.ghor/inbox/" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটি অর্ডার করুন">
     								<span class="flaticon-shopping-cart"></span>
     							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-    								<span class="flaticon-heart-1"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Quick View">
-    								<span class="flaticon-search"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Compare">
+
+    								
+    							
+    								
+    							
+    							<a href="pdf/pdf-4.pdf" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটির পিডিএফ দেখুন">
     								<span class="flaticon-visibility"></span>
     							</a>
     						</div>
     					</div>
     					<div class="text p-4 order-md-first">
     						<p class="mb-2"><span class="price">৳৬০</span></p>
-    						<h2><a href="#">সাম্যবাদী</a></h2>
+    						<h2><a href="#">অগ্নিবীণা</a></h2>
     						<span class="position">কাজী নজরুল ইসলাম</span>
     					</div>
     				</div>
@@ -321,16 +342,15 @@
     				<div class="book-wrap d-lg-flex">
     					<div class="img d-flex justify-content-end" style="background-image: url(images/book-5.jpg);">
     						<div class="in-text">
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
+    							<a href="https://www.facebook.com/poraton.boi.ghor/inbox/" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটি অর্ডার করুন">
     								<span class="flaticon-shopping-cart"></span>
     							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-    								<span class="flaticon-heart-1"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Quick View">
-    								<span class="flaticon-search"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Compare">
+
+    								
+    							
+    								
+    							
+    							<a href="pdf/pdf-5.pdf" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটির পিডিএফ দেখুন">
     								<span class="flaticon-visibility"></span>
     							</a>
     						</div>
@@ -346,16 +366,15 @@
     				<div class="book-wrap d-lg-flex">
     					<div class="img d-flex justify-content-end" style="background-image: url(images/book-6.jpg);">
     						<div class="in-text">
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to cart">
+    							<a href="https://www.facebook.com/poraton.boi.ghor/inbox/" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটি অর্ডার করুন">
     								<span class="flaticon-shopping-cart"></span>
     							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Add to Wishlist">
-    								<span class="flaticon-heart-1"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Quick View">
-    								<span class="flaticon-search"></span>
-    							</a>
-    							<a href="#" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="Compare">
+
+    								
+    							
+    								
+    							
+    							<a href="pdf/pdf-6.pdf" class="icon d-flex align-items-center justify-content-center" data-toggle="tooltip" data-placement="left" title="বইটির পিডিএফ দেখুন">
     								<span class="flaticon-visibility"></span>
     							</a>
     						</div>
